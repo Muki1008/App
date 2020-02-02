@@ -1,0 +1,7 @@
+@import "vars";
+
+.menu-container {
+  width: $menu-width;
+  height: calc(100vh - 50px); // 50px has to be set in /themes/header.scss as height.
+  background-color: #0074d9;
+}
