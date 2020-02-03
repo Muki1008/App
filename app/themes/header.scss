@@ -1,5 +1,19 @@
 .header-container {
-  height: 50px; // this is used in /themes/app.scss as reference for height.
+  height: 60px; // this is used in /themes/menu.scss as reference for height.
   width: 100%;
-  background-color: darkgoldenrod;
+  font-size: 32px;
+  display: flex;
+}
+.header{
+  width: 300px;
+  background-color: #4199C7;
+  height: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.track{
+  width: calc(100vw - 300px);
+  height: 60px;
 }

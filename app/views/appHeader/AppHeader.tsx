@@ -11,9 +11,12 @@ export class AppHeader extends React.PureComponent {
      */
     public render(): React.ReactNode {
         return (
+        
             <div className={css.headerContainer}>
-                Header
+                <div className = {css.header}>Document App</div>
+                <div className = {css.track}></div>
             </div>
+            
         );
     }
 }
