@@ -12,10 +12,10 @@ export class SideMenu extends React.PureComponent {
     public render(): React.ReactNode {
         return (
             <div className={css.menuContainer}>
-                <div className = {css.start}>
-                    
+                <div className={css.start}>
+                    <div className={css.active}/>
                 </div>
-                <div className = {css.webApps}></div>
+                <div className={css.webApps}/>
             </div>
         );
     }
